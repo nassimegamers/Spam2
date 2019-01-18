@@ -85,4 +85,4 @@ if (message.content === '!spam') {
 
 
 client.login("NTM1NzU4ODIyMzA0NjQ1MTMx.DyM0PA.YTpgRpfbIacDAL6o8KBor_XNuso");// لا تغير فيها شيء
-client2.login("NTM1NzQ4OTA4ODU3NDI1OTIw.DyMrkg.BAyuIBUqOSQvFoGGfcWuRdSZYsY");// لا تغير فيها شيء
+client2.login("NTM1NzYwMzYwMTAwMjAwNDQ5.DyM1cQ.g1AWOBYJcJqV1Wi11STRzDbIdw0");// لا تغير فيها شيء
