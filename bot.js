@@ -86,3 +86,5 @@ if (message.content === '!spam') {
 
 client.login("NTM1NzQ4ODczNjUwNTY5MjE2.DyMqsA.jqrVXgXAJhOvcsolJ91HcOlTYJc");// لا تغير فيها شيء
 client2.login("NTM1NzQ4OTA4ODU3NDI1OTIw.DyMrkg.BAyuIBUqOSQvFoGGfcWuRdSZYsY");// لا تغير فيها شيء
+client3.login("NTM1NzQ4OTQ3MDMzOTgwOTM4.DyMxAg.1mH1IeUy7ABf5ECif9WYZp1aou8");// لا تغير فيها شيء
+client4.login("NTM1NzQ4OTc3MjMzMTAwODAx.DyMxHA.9--Focs-N8X_hYd2kcYzHDxhv9s");// لا تغير فيها شيء
