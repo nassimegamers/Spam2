@@ -13,7 +13,24 @@ client.on('ready', () => {
    console.log(`This Bots Online ' `);
    console.log(`----------------`);
 });
+client.on('message', message => {
+  if (message.author.bot) return;
+  if (!message.content.startsWith(prefix1)) return;
 
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix1.length);
+
+  let args = message.content.split(" ").slice(1);
+
+
+  if (command === "say") { /// اكتب البرفيكس ثم الامر
+          message.delete()
+    message.channel.sendMessage(args.join(" ")).catch(console.error);
+  }
+
+
+});
+client.on('message', message
 
 client.on('message', message => {
     if(message.content === '-راتب'){
@@ -23,13 +40,13 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits  ')
+        message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
     if(message.content === '-ريب'){
-        message.channel.send('#credits  ')
+        message.channel.send('#credits')
     }
 });
 
@@ -41,13 +58,13 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-مبلغ'){
-        message.channel.send('#credits  ')
+        message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
     if(message.content === '-ريب'){
-        message.channel.send('#credits  ')
+        message.channel.send('#credits')
     }
 });
 
